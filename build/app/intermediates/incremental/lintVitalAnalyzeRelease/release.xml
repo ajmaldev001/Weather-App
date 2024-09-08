@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.weather_app_assignment"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/Users/ajmal/Developer/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/ajmal/.gradle/caches/transforms-3/07cf1860f79972b699f45fd43bbc3f03/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/intermediates/javac/release/classes:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/tmp/kotlin-classes/release:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/kotlinToolingMetadata:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.weather_app_assignment"
+      generatedSourceFolders="/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/generated/ap_generated_sources/release/out:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/generated/aidl_source_output_dir/release/out:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/generated/source/buildConfig/release:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/generated/res/rs/release:/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

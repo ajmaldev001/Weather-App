@@ -1,0 +1,4 @@
+#Sun Sep 08 10:34:21 IST 2024
+base.0=/Users/ajmal/Development/Flutter_Development/WeatherApp_Assignment/weather_app_assignment/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
